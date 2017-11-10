@@ -5,4 +5,8 @@ Bundle-SymbolicName: org.jkiss.dbeaver.runtime.ui;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: javax.inject,
+ org.eclipse.e4.core.di.annotations,
+ org.eclipse.e4.core.services,
+ org.eclipse.swt
 
